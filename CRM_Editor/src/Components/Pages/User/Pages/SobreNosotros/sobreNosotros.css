@@ -1,0 +1,152 @@
+.containerWhoUs{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.containerContent{
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+    justify-content: flex-end;
+}
+.containerTitle{
+    display: flex;
+    width: 85%;
+}
+.titleWhoUs{
+    color: #131838;
+    font-weight: 400;
+    font-size: 41px;
+}
+.titleWhoUs b {
+    color: #DA643A;
+}
+.containerH4{
+    width: 85%;
+}
+.containerH4 h4{
+    font-weight: 800;
+    color: #131838;
+    font-size: 25px;
+    line-height: 1.4em;
+}
+.askAndResponse{
+    display: flex;;
+    justify-content: flex-end;
+    width: 100%;
+}
+.containerAskAndResponse{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* margin-top: 40px; */
+    row-gap: 10px;
+    align-items: baseline;
+}
+.containerAskAndResponse h2 {
+    /* width: 25%; */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 27px;
+}
+.containerAskAndResponse p {
+    width: 63%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #131838;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .containerWhoUs{
+        height: 80vh;
+        padding: 15px;
+        overflow-y: auto;
+        background-image: none !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .titleWhoUs{
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+    .containerContent{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .containerH4 h4{
+     font-size: 15px;
+    }
+
+    .containerTitle{
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .containerAskAndResponse h2 {
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .containerAskAndResponse p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .containerAskAndResponse{
+        text-align: center;
+        width: 90%;
+    }
+    .askAndResponse{
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .containerWhoUs{
+        height: 80vh !important;
+        justify-content: space-evenly !important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 1700px) {
+    .containerWhoUs{
+        margin: 0;
+    }
+    .containerH4{
+        margin: 0 !important;
+    }
+    .containerAskAndResponse{
+        margin: 0;
+    }
+    .titleWhoUs{
+        font-size: 20px;
+    }
+    .containerAskAndResponse h2 {
+        width: 30%;
+        font-size: 18px;
+        justify-content: flex-start;
+    }
+    .containerH4 h4{
+        font-size: 12px;
+    }
+    .containerAskAndResponse p{
+        font-size: 12px;
+    }
+    .containerWhoUs{
+
+        background-position-x: 700px;
+        background-position-y:0px ;
+        background-size: 30%;
+        background-repeat: no-repeat;
+
+        width: 100%;
+        height: 70%;
+    }
+}

@@ -1,0 +1,21 @@
+.contenedor-modal-reenvio-codigo{
+    width: 40% !important;
+    height: 100%;
+    margin: auto !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-modal-reenvio-codigo .rs-modal-content{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid #DA643A;
+}
+.titulo-modal-reenviar{
+    font-size: 20px;
+    font-weight: 600;
+    color: #DA643A;
+}

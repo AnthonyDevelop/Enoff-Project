@@ -1,0 +1,270 @@
+.navbar-top{
+    background-color: #131838!important;
+    height: 10vh!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: flex-start;
+    /* z-index: 5; */
+}
+
+.navbar-top .rs-navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+}
+.rs-navbar-nav.rs-nav.rs-nav-default.rs-nav-horizontal{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sidebar-footer-item{
+    color: #fff !important;
+    font-size: 20px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+.sidebar-notification-icon{
+    color: #fff !important;
+    font-size: 20px;
+}
+
+ .navbar-top  a.active{
+    text-decoration: none;
+    color: #DA643A!important;
+}
+.contenedor-notificaciones{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none!important;
+    color: #DA643A !important;
+    outline: none!important;
+}
+.contenedor-notificaciones-mobile{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none!important;
+    color: #DA643A!important;
+    outline: none!important;
+}
+
+.contenedor-notificaciones:hover{
+    color: #DA643A!important;
+    text-decoration: none!important;
+}
+
+.botonMenuResponsive{
+    display: none;
+}
+.navbar-top .navbar-links-desktop.navbar-nav{
+    width: 100% !important;
+    justify-content: flex-end !important;
+    flex-direction: row;
+}
+
+nav.nav-toggle.rs-navbar.rs-navbar-subtle{
+    position: absolute !important;
+    top: 18px !important;
+    left: -4px !important;
+}
+
+.logoEditor{
+    margin-left: 65px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .box-logo-notificacion-navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+    }
+    
+    .navbar-links-desktop{
+        color: #DA643A !important;
+    }
+    .contenedor-logo-editor{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedor-logo-editor-mobile{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* .logoEditor{
+        margin-left: 0px;
+        width: 100px;
+    } */
+    .sidebar-footer-item{
+        color: #DA643A !important;
+        font-weight: 500;
+    }
+    .navbar-top .rs-navbar-brand{
+        padding: 0 !important;
+        align-items: center !important;
+    }
+    .navbar-top{
+        background-color: #131838!important;
+        height: 10vh!important;
+        display: flex!important;
+        align-items: center!important;
+        width: 100% !important;
+        justify-content: flex-end !important;
+    }
+    .sidebar-user-info{
+    font-size: 25px;
+    font-weight: 800;
+    }
+    /* .sidebar-user-rate{
+        width: 30px;
+    } */
+
+    .botonMenuResponsive{
+        display: block;
+        position: absolute;
+        left: 25px;
+        width: 20px;;
+    }
+    .offcanvas.offcanvas-start{
+        background:#131838;
+        
+    }
+    .navbar-links-desktop.navbar-nav{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .offcanvas-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+    }
+   /* .logoEditor{
+    width: 120px;
+   } */
+   .box-link-offcanvas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    height: 50%;
+   }
+   .avatar-offcanvas{
+    width: 120px !important;
+    height: 120px !important;
+    object-fit: cover !important;
+    border-radius: 50%;
+    border: 4px #DA643A solid;
+   }
+   .box-offcanvas-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    row-gap: 15px;
+    margin-left: 20px;
+   }
+   .mobile-sidebar-avatar{
+    width: 100% !important;
+    height: 100% !important;
+    text-decoration: none !important;
+    outline: none !important;
+    color: #DA643A;
+   }
+   .avatar-offcanvas.rs-avatar>.rs-avatar-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   }
+   .logoEditor{
+    margin-left: 0px;
+    width: 100px !important;
+}
+.contenedor-logo-editor-mobile-100{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-notificaciones-mobile{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 25px;
+}
+/* .navbar-links-desktop{
+    display: none !important;
+} */
+
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    /* .navbar-top{
+        justify-content: center !important;
+    } */
+    .sidebar-footer-item{
+        font-size: 20px !important;
+    }
+    .contenedor-notificaciones{
+        display: none;
+    }
+    .contenedor-logo-editor-mobile{
+        width: 60%;
+    }
+    .contenedor-notificaciones-mobile{
+        width: 20%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1500px) {
+    .sidebar-footer-item{
+        font-size: 14px;
+    }
+
+    nav.nav-toggle.rs-navbar.rs-navbar-subtle{
+        position: absolute !important;
+        top: 10px !important;
+        left: 15px !important;
+    }
+    .logoEditor{
+        width: 90px !important;
+    }
+}
+
+@media (min-width:968px) and (max-width: 3000px) {
+    .box-offcanvas-foto{
+        display: none;
+    }
+    .contenedor-notificaciones-mobile{
+        display: none;
+    }
+    nav.nav-toggle.rs-navbar.rs-navbar-subtle{
+        position: absolute !important;
+        top: 20px !important;
+        left: 3px !important;
+    }
+}
+
+@media (min-width:1300px) and (max-width: 1700px) {
+    nav.nav-toggle.rs-navbar.rs-navbar-subtle {
+        position: absolute !important;
+        top: 5px !important;
+        left: 3px !important;
+    }
+    .rs-rate-xs .rs-rate-character{
+        width: 14px !important  ;
+    }
+}

@@ -1,0 +1,31 @@
+.buttonLoading{
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+    border: 3px solid #DA643A ;
+    border-top: 2px solid #fff;
+    animation: spinner1 600ms linear infinite;
+}
+
+.icono-check-verde{
+    color: #DA643A ;
+    font-size: 55px;
+}
+
+@keyframes spinner1 {
+    to {
+    transform: rotate(360deg);
+    }
+}
+.titleLoading{
+    color: #DA643A ;
+    font-size: 22px;
+}
+.containerLoading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 92vh;
+}

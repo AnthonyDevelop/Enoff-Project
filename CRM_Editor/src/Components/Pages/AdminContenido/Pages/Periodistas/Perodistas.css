@@ -1,0 +1,383 @@
+.box-parrafo-periodistas{
+    border: 1px solid #DA643A ;
+    border-radius: 5px;
+    padding: 10px;
+}
+.contenedor-buscador-periodistas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    row-gap: 20px;
+}
+.box-buscador-periodistas{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-formulario-periodistas{
+    border: 1px solid #DA643A ;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.container-subtittle{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #DA643A;
+    border-radius: 10px;
+    text-align: center;
+}
+.color-texto{
+    font-size: 1.2em;
+    color: #DA643A;
+    font-style: italic;
+}
+.contenedor-vistas-periodistas{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.box-inputs-periodistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.contendor-form-inputs-periodistas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid #DA643A;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    box-shadow: 10px 10px 5px 0px rgba(184,184,184,1);
+}
+.list-group-item{
+    background-color: #FFFDEE !important;
+    border: 1px solid  #DA643A !important;
+    border-radius: 5px !important;
+}
+
+.contenedor-lista-periodistas{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+}
+.contenedor-lista-periodistas .list-group-item{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+}
+
+.caja-info-periodistas-admin{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: #DA643A;
+}
+
+.caja-info-periodistas-admin-boton-eliminar{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.font-verde{
+    color: #DA643A;
+    font-style: italic;
+    font-size: 20px;
+}
+.boton-iniciar-sesion{
+    background-color:#DA643A;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.caja-icono-periodistas{
+    padding: 10px 30px;
+}
+.container-sin-periodistas{
+    width: 100%;
+    text-align: center;
+}
+.container-sin-periodistas p{
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.container-inputs-periodistas{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.periodistas-select{
+    color: black !important;
+    /* height: 35px !important; */
+    border-radius: 5px !important;
+    font-size: 15px;
+    border: 2px solid #DA643A;
+    width: 190px;
+    background-color: white;
+}
+.periodistas-select .rs-picker-default .rs-picker-toggle{
+border: 1px solid #DA643A !important;
+}
+/* .rs-picker-default .rs-picker-toggle:hover{
+    border: 0px !important;
+} */
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active{
+    border: 0px !important;
+}
+.button-eliminar-periodista{
+    background-color: #131838;
+    border-radius: 5px;
+    padding: 4px 12px;
+    /* text-align: center; */
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.periodistas-select option{
+    color: #DA643A !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    font-size: 18px;
+}
+.box-inputs-periodistas .rs-picker-toggle .rs-picker-toggle-placeholder {
+    color: black !important;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+.periodistas-select span.rs-picker-select-menu-item{
+    color: #DA643A!important;
+}
+.periodistas-select .rs-anim-fade.rs-anim-in.rs-picker-select-menu.rs-picker-menu.placement-bottom-start{
+    border-color: #DA643A !important;
+}
+
+.boton-cargar-periodistas{
+    background-color: #DA643A;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    cursor: pointer;
+}
+
+.box-icono-periodistas{
+    padding: 0px 20px;
+}
+.periodistas-select .rs-picker-toggle{
+height: 33px;
+}
+.periodistas-select .rs-picker-toggle-active, .rs-picker.rs-picker-focused{
+    box-shadow: none !important;
+}
+.periodistas-select .rs-picker-default:not(.rs-picker-disabled) .rs-btn-active, .rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover{
+    border-color: 2px solid #131838!important;
+
+}
+.periodistas-select .rs-picker.rs-picker-focused, .rs-picker:not(.rs-picker-disabled):hover{
+    border-color: #DA643A;
+}
+.rs-picker-default .rs-btn, .rs-picker-default .rs-picker-toggle{
+    transition: none !important;
+    outline: none !important;
+    background-color: #FFFDEE !important;
+}
+
+
+
+.rs-stack{
+    outline: none !important;
+}
+.periodistas-select-distinto{
+    color: #DA643A !important;
+    height: 35px !important;
+    border-radius: 5px !important;
+    font-size: 14px;
+    border: 1px solid #DA643A;
+    width: 200px;
+    text-indent: 10px;
+}
+
+.titulos-periodistas{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nombre-periodista{
+    font-size: 20px;
+    color: #606060;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.email-periodistas{
+    color: #DA643A;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0px;
+}
+.caja-info-periodistas-admin-nombre{
+    width: 30%;
+    text-align: center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+    color: #131838!important;
+    font-size: 16px;
+    font-weight: 700;
+}
+.categoria-periodista{
+    color: #DA643A;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 800;
+}
+.explorar-principal-periodistas{
+    width: 85%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.box-pagination-periodistas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contenedor-buscador-periodistas{
+        height: auto;
+    }
+    .contenedor-vistas-periodistas{
+        height: auto;
+    }
+    .box-inputs-periodistas{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .box-formulario-periodistas{
+        height: auto;
+    }
+    .contenedor-lista-periodistas{
+        height: auto;
+        width: 100%;
+    }
+    .font-verde{
+        font-size: 14px;
+    }
+    .caja-info-periodistas-admin{
+        width: auto;
+    }
+    .contendor-form-inputs-periodistas{
+        row-gap: 0;
+        padding: 10px;
+    }
+    .contenedor-lista-periodistas .list-group-item{
+        column-gap: 10px;
+    }
+    .select-periodistas.css-b62m3t-container{
+        width:auto ;
+    }
+    .box-buscador-periodistas{
+        row-gap: 0;
+    }
+  .rs-avatar.rs-avatar-lg.rs-avatar-circle{
+        width: 40px;
+        height: 40px;
+    }
+    .rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+        font-size: 12px;
+    }
+    .periodistas-select{
+        width: 150px !important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .periodistas-select {
+        width: 300px !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1700px) {
+
+.contenedor-buscador-periodistas{
+    row-gap: 20;
+}
+
+}
+
+@media (min-width:1024px) and (max-width: 1700px) {
+    .periodistas-select{
+        width: 185px !important;
+    }
+    .container-subtittle{
+        padding: 5px;
+    }
+    .rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+        font-size: 12px;
+    }
+    .boton-cargar-periodistas{
+        font-size: 13px;
+    }
+    .nombre-periodista{
+        font-size: 15px;
+    }
+    .email-periodistas{
+        font-size: 15px;
+    }
+    .categoria-periodista{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,151 @@
+.validar-mail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+    row-gap: 25px;
+}
+
+.validar-mail-container h5 {
+    color: #3D3D3B;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.validar-mail-container .validar-mail-box p {
+    color: #3D3D3B;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.formulario-validar-mail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formulario-validar-mail .input-acceso {
+    color: #3D3D3B;
+}
+
+.validar-mail-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #DA643A;
+    padding: 40px;
+    row-gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.campos-codigos {
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.campos-codigos input {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #DA643A;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+
+.boton-reenviar-codigo {
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #DA643A;
+}
+
+.codigo-enviado-error {
+    text-align: center;
+    color: #FF4958 !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.codigo-enviado-correcto {
+    text-align: center;
+    color: #DA643A;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reenviar-codigo-align-left {
+    margin-right: auto;
+}
+
+.formulario-nueva-contraseña{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+.button-nueva-contraseña{
+    background-color: #DA643A;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.box-button-nueva-contraseña{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo-nueva-contraseña{
+    color: #DA643A !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+.label-nueva-contraseña{
+    color: #DA643A;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input-nueva-contraseña{
+    background-color: rgb(177 229 247);
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.validar-mail-container h5{
+    font-size: 18px !important;
+}
+.validar-mail-box{
+    width: 85% !important;
+}
+.validar-mail-container .validar-mail-box p{
+    font-size: 1em ;
+    text-align: center;
+}
+.validar-mail-container{
+    height: 600px !important;
+}
+.label-nueva-contraseña{
+    font-size: 14px;
+}
+.button-nueva-contraseña {
+    font-size: 14px;
+}
+}

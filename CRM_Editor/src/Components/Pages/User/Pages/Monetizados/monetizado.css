@@ -1,0 +1,210 @@
+.videos-monetizados-container{
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto 0;
+    width: 80%;
+}
+.videos-monetizados-container h5{
+    font-weight: 700;
+    font-size: 46px;
+    color: #DA643A;
+}
+.contentMonetizado{
+    margin-top: 50px;
+}
+.form-check{
+    width: 80%;
+}
+
+.form-check-input:checked{
+    background-color: #DA643A !important;
+    border-color: #DA643A !important;
+    width: 20px;
+    height: 20px;
+}
+
+.titulo-monetizados{
+    color: #DA643A;
+    font-weight: 700;
+    
+}
+.paginacion-monetizados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+.contenedor-sin-monetizados{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    height: 300px; 
+
+}
+.titulo-sin-monetizar{
+    font-size: 20px;
+    color: #949494;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+
+}
+.button-sin-videos{
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #DA643A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 8px;
+}
+.card-monetizados{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.contenedor-vistas-aquirido-user{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+    row-gap: 20px;
+    margin-left: auto;
+    overflow-y: auto;
+    margin-right: auto;
+    max-height: 600px;
+}
+
+.contenedor-vistas-aquirido-user::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+.contenedor-vistas-aquirido-user::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .contenedor-vistas-aquirido-user::-webkit-scrollbar-thumb {
+    background: #DA643A;
+  }
+  
+  /* Handle on hover */
+  .contenedor-vistas-aquirido-user::-webkit-scrollbar-thumb:hover {
+    background: #DA643A;
+  }
+.contenedor-card-adquirido-user{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 15px;
+}
+.contenedor-card-adquirido-user .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+@media only screen and (max-width: 768px) {
+    .form-check{
+        width: 100%;
+        padding: 0;
+    }
+    .titulo-monetizados{
+        font-size: 25px;
+    }
+    .paginacion-monetizados{
+        width: 100%;
+    }
+    .contenedor-sin-monetizados{
+        width: 100%;
+    }
+    .titulo-sin-monetizar{
+        font-size: 16px;
+        font-style: italic;
+    }
+    .button-sin-videos{
+        font-size: 15px;
+    }
+    /* .card-monetizados{
+        width: 100px!important;
+    } */
+
+    .contenedor-card-adquirido-user .card-body{
+       
+        flex-direction: column !important;
+        justify-content: space-around;
+    }
+    .img-card-monetizados{
+        width: 40% !important;
+    }
+    .contenedor-card-adquirido-user{
+        width: 100%;
+        flex-direction: column !important;
+        row-gap: 10px;
+    }
+    .box-card-adentro{
+        width: 90%;
+    }
+    .contenedor-vistas-aquirido-user{
+        width: 95%;
+    }
+    .contenedor-foto-card{
+        width: 130px !important;
+    }
+    .card{
+        height: 140px !important;
+        width: 90% !important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+.contenedor-vistas-aquirido-user{
+    width: 50%;
+    justify-content: center;
+}
+
+}
+
+@media (min-width:1000px) and (max-width: 1800px) {
+    .titulo-monetizados{
+        font-size: 30px;
+    }
+    .card-monetizados{
+        height: 110px !important;
+    }
+    .imagen-card{
+        width: 120px !important;
+    }
+    span.rs-picker-toggle-placeholder{
+        font-size: 12px !important;
+    }
+    .titulo-sin-monetizar{
+        font-size: 15px;
+    }
+    .button-sin-videos{
+        font-size: 16px;
+    }
+    .contenedor-foto-card{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .contenedor-foto-card{
+        width: 120px !important;
+    }
+    .contenedor-foto-card{
+     width: 150px !important;
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "sistemas-delsud",
+    "private_key_id": "4777cf765b5d899e88bfdc949789a65b71d069e1",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCcqC6kL28U1y4c\nJdKWPfGO8iYwrWNsYCqN+xbZjV2Q897xMi5dLWbJ2Kuh9MOGpzu5tJkf5Z7jT+Wv\nDidgJje969INXPR4S+dPdyTEsFsBEPwqpyBJQa8vinQNiPL9RKfyfKmav8fze/M/\nCWX2g2cbrnIOY3o+E1OEOzU9itSCInfFQCTxTQebmEQIfyiHZdSLmyxAfk0yyArN\ngodHfGTwYVJDrDzpHTeVqjXT/vT3KR+kuXBDZMn4R4GO7XW3rRdxtVy5PZqnCE8o\ndhYhV9tyH0WBL+oanQWu5aEID6ngb+8/Mv54Q4Ydta+xLz1gTVDsTdHbghoP3Sz4\nowfM4zqfAgMBAAECggEAAhpoSYfxIZ9f3wKgrfVTHjE8DVrSr7Q+z3cqJD8zpMVN\ngyQfenAY2Gt89Bgwnvdpjn6qaqPJPgZAPdkidr24PwLzNY5LWJfMheQEOztJEV3H\nZ1GdUhuL2wFi79cYwCgSkMhyJ81uLg5RzEVt4NtGN50xqp/3scZR66h0j8T75Ft4\nCa/O28P8yee3LgSfGm4ixuMyTDGd6GtXOYmkNHCE45nORV0e1mccUQxYhUobMIZ0\nmbBr4FP6voCrQS8YKcH0DWdtUeIdHPS7xsuD0dZnxTwVzMOstzhOdJAZZiTwBB9w\n/qwPuvCUnP6OWcwO52fYMZQYeOwmxDn3BSjghvTeeQKBgQDcC5NcZjt4Wtwb8vNR\nsuXUzoF1hz1ekcVEWYXmOtTzFhMXjC4Ta6qb8Xa0CGcRPsEy0Zh/8vAtpIhd+LS2\nPxy3B8gogrgH9qyTLYYEmy2u5YyhmYdXHw58lQfn8eJC1JmZV2MZpatJVwlf3ozL\nrjPnDDBQ217C9nhh17MAnwdzAwKBgQC2QRhb5sY+H8fJsmnXTMphU59MX+13wdfl\naxXb1/3O3zVb2rwhdtmeX15ZvX9u2mkPq9oG7F0KIlk5WsOy8OhoSgUHQNW6mb5Q\npc4Bj1Jg9LmuMamAVsm/ZgY0MEHGoXyEtUZNjwu6dj1fonaUIclCvMWp3KCGif5k\na0kZilR5NQKBgQDIh/ASe8RkqYEAI4dlBAD5z/wg7E+cOIIrCN7C8wiQQ6TAh+qR\nnkQL+6Cu7x1mlOcidephaDdDkTcJVJbzo0566qeZa49lCoM5WXpSBk06n01rE+xI\nFDByjqp20XPebbtRCFdyzwzrOFt9t+Zd1HLOc8gwV8rjKBSLLjSeM09pmwKBgQCC\nwnljllMtR0fkIill2yZoZcKo3TpW7bCkXQw1yuXCgsqZuHm52LeRtQLQh/Dh67nt\nEHNA/FxUZQh26fP2cnmMOW8aIR423w94dT00SUvlXC/MFr1x4tKki+Jvlx/aDwpz\nfEuQYc0cXrDx6HIDHap0Q1Pd5vkVDfSCv6aWuHSa8QKBgGbqJVCUfGv/JWTAJK8r\nTX9d0ScRoz7LntQtb/jBHfFxiT84Ur6VA1BbBoCVDmSDFRSfqL0+ZcptUN8rvvi2\n21V/4ZZTRgClNGhK0VIAJ+mKGKcBIi/gRPk71xLcw9GFxAwIYDHMHH0pwo6zpOiS\ne46bVMYfBZGr8EDtaNwwWfFB\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-bp00i@sistemas-delsud.iam.gserviceaccount.com",
+    "client_id": "108749079623434596326",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bp00i%40sistemas-delsud.iam.gserviceaccount.com"
+  }
+  

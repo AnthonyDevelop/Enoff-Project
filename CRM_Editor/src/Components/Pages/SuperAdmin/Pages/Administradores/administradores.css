@@ -1,0 +1,22 @@
+.box-buscador-usuarios-vista-superAdmin{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.input-buscador-administradores{
+    width: 65%;
+}
+
+.box-selects-usuarios{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.titulo-lista-usuarios{
+    text-transform: capitalize !important;
+}

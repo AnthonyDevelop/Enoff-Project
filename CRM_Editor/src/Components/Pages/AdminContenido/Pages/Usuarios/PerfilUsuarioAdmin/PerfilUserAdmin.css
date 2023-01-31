@@ -1,0 +1,309 @@
+.seccion-datos-usuario-admin{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-informacion-user-vistaAdmin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    column-gap: 50px;
+    position: relative;
+}
+.contenedor-cantidad-de-videos-vistaAdmin{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nombre-usuario-perfil-Admin{
+    color: #202425;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.caja-seccion-perfil-vistaAdmin{
+    /* margin-top: 30px; */
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 20px;
+    /* row-gap: 15px; */
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    width: 85%;
+}
+.cantidad-de-videos-vedor{
+    display: flex;
+    border: 4px solid #DA643A;
+    /* min-height: 180px;
+    min-width: 280px;
+    max-height: 180px;
+    max-width: 280px; */
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad-de-videos-vedor .cantidad-de-videos-valor {
+    color: #B1E5F7;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+  }
+.estadisticas-videos-usuario-columna-vedor{
+    width: 100%;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+  .cantidad-de-videos-vedor .cantidad-de-videos-texto{
+    text-align: center;
+    margin: 0px;
+    font-weight: 400;
+    color: #DA643A;
+  }
+
+
+.caja-seccion-perfil-vista-vedor{
+    /* border: 1px solid #dbdbdb; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    row-gap: 60px;
+    position: relative;
+    height: 100%;
+    /* overflow-y: auto; */
+    width: 85%;
+}
+
+.mi-perfil-container-vedor-usuario::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+.mi-perfil-container-vedor-usuario::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .mi-perfil-container-vedor-usuario::-webkit-scrollbar-thumb {
+    background: #DA643A; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .mi-perfil-container-vedor-usuario::-webkit-scrollbar-thumb:hover {
+    background: #DA643A;
+  }
+
+
+
+.caja-seccion-perfil-vistaAdmin::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+.caja-seccion-perfil-vistaAdmin::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .caja-seccion-perfil-vistaAdmin::-webkit-scrollbar-thumb {
+    background: #DA643A;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .caja-seccion-perfil-vistaAdmin::-webkit-scrollbar-thumb:hover {
+    background: #DA643A; 
+  }
+
+
+
+.seccion-acerca-de-perfil-vistaAdmin{
+    display: flex;
+    column-gap: 100px;
+    width: 85%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.estadisticas-videos-usuario-vistaAdmin{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    width: 85%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-videos-usuario-vistaAdmin{
+    color: #DA643A;
+    font-size: 25px;
+    font-weight: 500;
+    width: 90%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.contenedor-videos-perfil-vistaAdmin{
+    width: 85%;
+    /* margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.fotoPerfilAdmin {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    padding: 5px;
+    cursor: no-drop !important;
+    border: 3px solid #DA643A;
+}
+.id-user-texto{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    color: #606060;
+}
+.prueba-caja{
+    width: 250px;
+    height: 180px;
+}
+
+.box-botones{
+    position: absolute;
+}
+.contenedor-cantidad-de-videos-vistaSuperAdmin{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.font-subtitulo-fecha-admin{
+    color: #DA643A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.font-fecha-admin{
+    color: #606060;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.box-usuarios-ubi{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 70%;
+    align-items: center;
+    column-gap: 25px;
+}
+.box-strike{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    row-gap: 5px;
+}
+.cantidad-de-videos-admin{
+    display: flex;
+    border: 4px solid #DA643A;
+    /* min-height: 130px; */
+    /* min-width: 130px; */
+    /* max-height: 130px; */
+    /* max-width: 130px; */
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+}
+
+.cantidad-de-videos-admin .cantidad-de-videos-valor{
+    color: #131838;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+.cantidad-de-videos-admin .cantidad-de-videos-texto{
+    text-align: center;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.button-superAdmin-perfil{
+    background-color: #B1E5F7;
+    border-radius: 5px;
+    height: 30px;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .caja-seccion-perfil-vistaAdmin{
+        padding: 0;
+    }
+    .seccion-datos-usuario-admin{
+        flex-direction: column;
+    }
+}
+@media (min-width:1024px) and (max-width: 1800px) {
+/* .caja-seccion-perfil-vistaAdmin{
+    justify-content: flex-start !important;
+} */
+.cantidad-de-videos-vedor{
+    width: 125px !important;
+    height: 125px !important;
+}
+.nombre-usuario-perfil{
+    font-size: 20px!important;
+}
+.id-user-texto{
+    font-size: 18px;
+}
+.otros-datos-usuario-perfil{
+    font-size: 18px;
+}
+.font-subtitulo-fecha-admin{
+    font-size: 15px;
+}
+.font-fecha-admin{
+    font-size:13px ;
+}
+.cantidad-de-videos-vedor .cantidad-de-videos-valor-vedor{
+    font-size: 40px !important;
+}
+.cantidad-de-videos-texto-vedor{
+    font-size: 12px;
+}
+}

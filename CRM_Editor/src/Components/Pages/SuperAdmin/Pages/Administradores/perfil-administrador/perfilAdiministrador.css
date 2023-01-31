@@ -1,0 +1,8 @@
+.box-numero-cuenta-superAdmin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+    height: 30%;
+
+}

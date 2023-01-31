@@ -1,0 +1,39 @@
+.sidebar-admin-info-sidebar{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+    color: white;
+}
+.sidebar-header-container-admin{
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icono-cerrar-sidebar{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+
+.icono-vacio{
+    fill: #fff0 !important;
+}
+.modal-vista-no-disponible{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    height: 90vh !important;
+}
+
+@media (min-width:1024px) and (max-width: 1800px) {
+    .sidebar-header-container-admin{
+        row-gap: 0px !important;
+    }
+    .sidebar-admin-info-sidebar{
+        font-size: 15px;
+    }
+}

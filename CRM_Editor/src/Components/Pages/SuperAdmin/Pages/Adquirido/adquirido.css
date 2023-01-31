@@ -1,0 +1,273 @@
+.adquirido-principal{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+}
+
+.mis-videos-filtros-vistaAdmin{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor-vistas-aquirido{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    row-gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-cards-videos-adquieridos{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenedor-buscador-adquirido{
+  width: 70%;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: flex-start; */
+  height: 70px;
+}
+.flex-filtros-adquirido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.contenedor-principal-card-video-adquirido{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    column-gap: 30px;
+    
+}
+.contenedor-card-adquirido{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 20px;
+    /* height: 180px; */
+}
+
+.contenedor-card-adquirido .card{
+    border: 2px solid #5DCB42;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.contenedor-card-adquirido .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor-filtros-titulo-buscador-adquirido{
+  width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+
+
+.checkbox-adquirido input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 1px solid #3D3D3B !important;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+
+  .checkbox-adquirido input[type="checkbox"] {
+    position: relative;
+    cursor: pointer;
+    margin-top: -4px;
+    margin-right: 5px;
+  }
+  
+  .checkbox-adquirido input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 1px solid grey;
+    background-color: #fff;
+  }
+  
+  .checkbox-adquirido input[type="checkbox"]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -2px;
+    left: -2px;
+  }
+  
+  .checkbox-adquirido input[type="checkbox"]:checked:after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 16px;
+    border: solid grey;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0px;
+    left: 6px;
+  }
+
+  .box-info-card{
+    width: 75%;
+  }
+
+  .box-precio-estrellas-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+  }
+  .box-precio-estrellas-card .rate-adquirido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .card-title-adquirido{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    line-height: 1.4em;
+    /* white-space: nowrap ;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 32vw ; */
+  }
+  .parrafo-card-adquirido{
+    font-size: 14px;
+    color: black;
+  }
+  .precio-card-adquirido{
+    color: #5DCB42;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .contenedor-vistas-aquirido .rs-checkbox-group-inline{
+    flex-direction: column !important;
+    width: 80%;
+    row-gap: 25px;
+  }
+.img-card-adquirido{
+  width: 180px;
+  max-width: 200px;
+  max-height: 100%;
+}
+  @media only screen and (max-width: 768px) {
+    .adquirido-principal{
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 10px;
+    }
+    .contenedor-card-adquirido .card-img-top{
+      width: 120px !important;
+    }
+    .contenedor-vistas-aquirido .rs-checkbox-group-inline{
+      width: 100%;
+    }
+    .contenedor-vistas-aquirido{
+      height: auto;
+    }
+    .contenedor-card-adquirido .card{
+      height: 140px !important;
+    }
+    .mis-videos-filtros-vistaAdmin{
+      height: auto;
+    }
+    .contenedor-cards-videos-adquieridos{
+      height: auto;
+    }
+    .contenedor-card-adquirido .card-body{
+      flex-direction: column;
+      padding: 5px;
+      height: 100%;
+      width: 200px;
+    }
+    .box-info-card{
+      width: 100%;
+      height: 80%;
+ 
+    }
+    .box-precio-estrellas-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 25px;
+    }
+    .contenedor-card-adquirido{
+      height: 140px;
+      width: 100%;
+    }
+    .contenedor-buscador-adquirido{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1700px) {
+    /* .contenedor-card-adquirido .card-img-top{
+      width: 120px !important;
+    } */
+    .mis-videos-filtros-vistaAdmin{
+      height: 50px !important;
+    }
+    .adquirido-principal{
+      height: auto;
+    }
+    .contenedor-card-adquirido{
+      height: 110px !important;
+    }
+   }

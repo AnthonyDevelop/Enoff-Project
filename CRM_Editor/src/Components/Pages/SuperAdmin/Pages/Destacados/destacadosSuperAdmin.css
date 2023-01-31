@@ -1,0 +1,11 @@
+.select-periodistas.select-destacados-vista-super-admin{
+    width: 522px;
+}
+.box-buscador-destacados-superAdmin{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    margin: auto;
+}

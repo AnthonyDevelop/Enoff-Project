@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Agane';
+  font-weight: 100;
+  src: local('Agane'), url(./Fonts/AganeLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Agane';
+    font-weight: 400;
+    src: local('Agane'), url(./Fonts/AganeNormal.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Agane';
+    font-weight: 800;
+    src: local('Agane'), url(./Fonts/AganeExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Agane';
+  font-weight: 600;
+  src: local('Agane'), url(./Fonts/AganeBold.ttf) format('truetype');
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+*{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+select option:hover {
+  background-color: yellow !important;
+}
+
+button.rs-pagination-btn.rs-pagination-btn-active{
+  border: 2px solid #DA643A;
+  color: #DA643A;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+}
+span.rs-pagination-symbol{
+  color: #282c34;
+  font-size: 15px;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: #131838;
+  -webkit-box-shadow: 0 0 0px 1000px #B1E5F7 inset;
+  font-family: 'Roboto';
+}
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #B1E5F7 inset;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.rs-rate{
+  color:#B1E5F7!important;
+}
+
+.rs-pagination-btn.rs-pagination-btn-active:focus, .rs-pagination-btn.rs-pagination-btn-active:hover{
+  color: #DA643A !important;
+  border-color: #DA643A !important;
+}
+
+.rs-picker-select-menu-item.rs-picker-select-menu-item-focus, .rs-picker-select-menu-item:focus, .rs-picker-select-menu-item:hover {
+  background-color: #DA643A !important;
+  background-color: #DA643A !important;
+  color: white !important;
+  color: white !important;
+}
+.rs-container{
+  background-color: #FFFDEE !important;
+  /* justify-content: center !important; */
+}
+
+.swiper-button-next, .swiper-button-prev{
+  color: #DA643A !important;
+}
+/* .rs-picker-toggle.rs-btn.rs-btn-default{
+height: 45px;
+} */
+
+/* .rs-rate-character{
+  margin-right: 0px !important;
+} */
+
+ .rs-picker-toggle:hover{
+  border-color: transparent !important;
+}
+.rs-picker-toggle:focus{
+  border-color: transparent !important;
+}

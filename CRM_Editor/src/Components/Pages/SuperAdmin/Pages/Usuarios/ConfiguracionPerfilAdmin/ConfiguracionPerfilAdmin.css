@@ -1,0 +1,87 @@
+.contenedor-principal-editar-perfil-vistaAdmin{
+    width: 100%;
+    height: 850px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-principal-info-perfil-vistaAdmin{
+    width: 80%;
+    height: 800px;
+}
+.box-botones-editar-vistaAdmin{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.box-info-vista-admin{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-viñetas-info-vista-Admin{
+    width: 90%;
+    height: 350px;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-principal-info-usuario{
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+}
+.box-botones-editar-vistaAdmin h1{
+    font-size: 40px;
+    color: #DA643A;
+}
+.box-botones-editar-vistaAdmin p{
+    font-size: 20px;
+    color: gray;
+}
+
+.box-numero-cuenta-vistaAdmin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30%;
+}
+.contenedor-burbujas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.box-titulo-burbujas{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.box-titulo-burbujas h2{
+    color: #DA643A;
+    font-size: 30px;
+}
+
+.seccion-datos-usuario-vistaAdmin{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 50%;
+}

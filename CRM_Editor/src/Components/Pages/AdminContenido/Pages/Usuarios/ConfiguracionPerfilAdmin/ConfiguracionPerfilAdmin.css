@@ -1,0 +1,202 @@
+.contenedor-principal-editar-perfil-vistaAdmin{
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-principal-info-perfil-vistaAdmin{
+    width: 85%;
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box-botones-editar-vistaAdmin{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.box-info-vista-admin{
+    width: 85%;
+    /* height: 350px; */
+    /* border-radius: 10px 10px 0px 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-viñetas-info-vista-Admin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 30px;
+}
+
+/* .box-principal-info-usuario{
+    border: 2px solid #DBDBDB;
+    border-radius: 10px;
+} */
+.box-botones-editar-vistaAdmin h1{
+    font-size: 40px;
+    color: #DA643A;
+}
+.box-botones-editar-vistaAdmin p{
+    font-size: 20px;
+    color: gray;
+}
+
+.box-numero-cuenta-vistaAdmin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30%;
+}
+.contenedor-burbujas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 85%;
+    height: 200px;
+    column-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.box-titulo-burbujas{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.box-titulo-burbujas h2{
+    color: #DA643A;
+    font-size: 35px;
+}
+
+.seccion-datos-usuario-vistaAdmin{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.container-compra-mensual .cantidad-de-videos-valor{
+    color: #DA643A;;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-progess-circle{
+    width: 130px;
+    height: 130px;
+}
+.limite-compra-vedor-perfil{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.prueba-caja-vedor{
+    width: 280px;
+    height: 180px;
+}
+.cantidad-de-videos-vedor{
+    display: flex;
+    border: 4px solid #DA643A;
+    /* min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px; */
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cantidad-de-videos-vedor .cantidad-de-videos-valor-vedor{
+    color: #131838;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+.font-circulo-perfil-vedor{
+    color: #131838;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+}
+.cantidad-de-videos-texto-vedor{
+    text-align: center;
+}
+.datos-usuario-perfil-vedor{
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: flex-start;
+    text-align: left;
+    row-gap: 10px;
+}
+.datos-usuario-perfil-superAdmin{
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+    text-align: left;
+    row-gap: 10px;
+}
+.caja-header-seccion-perfil-vedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 70px;
+}
+.caja-header-seccion-perfil-vedor h5{
+    font-size: 35px;
+    color: #DA643A;
+}
+.link-perfil-vedor{
+text-decoration: none !important;
+color: #DA643A;
+}
+.link-perfil-vedor:hover{
+    text-decoration: none !important;
+    color: #DA643A!important;
+    }
+
+@media (min-width:1024px) and (max-width: 1700px) {
+    .prueba-caja{
+        width: 200px !important;
+        height: 130px !important;
+    }
+    .box-viñetas-info-vista-Admin{
+        row-gap: 0px;
+    }
+}

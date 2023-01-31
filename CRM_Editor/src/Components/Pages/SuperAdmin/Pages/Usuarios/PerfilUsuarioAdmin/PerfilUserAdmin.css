@@ -1,0 +1,100 @@
+.seccion-datos-usuario-admin{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-informacion-user-vistaAdmin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    column-gap: 50px;
+}
+.contenedor-cantidad-de-videos-vistaAdmin{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nombre-usuario-perfil-Admin{
+    color: #202425;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.caja-seccion-perfil-vistaAdmin{
+    margin-top: 30px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px;
+    border-radius: 20px;
+    row-gap: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.seccion-acerca-de-perfil-vistaAdmin{
+    display: flex;
+    column-gap: 100px;
+    width: 90%;
+    margin: auto;
+}
+.estadisticas-videos-usuario-vistaAdmin{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.titulo-videos-usuario-vistaAdmin{
+    color: #DA643A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contenedor-videos-perfil-vistaAdmin{
+    width: 90%;
+    margin: auto;
+}
+
+.caja-seccion-perfil-vistaAdmin-2{
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 20px;
+    /* row-gap: 15px; */
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    width: 85%;
+}
+.titulo-modal-strike{
+    color: #DA643A !important;
+    font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .caja-seccion-perfil-vistaAdmin{
+        padding: 0;
+    }
+    .seccion-datos-usuario-admin{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1800px){
+    .caja-seccion-perfil-vistaAdmin-2{
+        justify-content: center !important;
+    }
+}

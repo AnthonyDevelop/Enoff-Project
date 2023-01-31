@@ -1,0 +1,114 @@
+.containerPolity{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlePolity{
+    font-weight: 800;
+    font-size: 38px;
+    color: #202425;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerAllPolity{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    border: 1px solid #DA643A;
+    border-radius: 10px;
+    padding: 50px;
+    height: 70vh;
+}
+.contentAllPolity{
+    padding-right: 20px;
+    /* overflow-y: scroll; */
+    padding-right: 30px;
+}
+.contentAllPolity h3{
+    color: #DA643A;
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.contentAllPolity span {
+    color: #000000;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.contentAllPolity::-webkit-scrollbar {
+    width: 5px;
+  }
+
+/* Track */
+.contentAllPolity::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .contentAllPolity::-webkit-scrollbar-thumb {
+    background: #DA643A;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .contentAllPolity::-webkit-scrollbar-thumb:hover {
+    background: #DA643A; 
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+
+.titulo-politcas{
+ font-size: 15px;
+}
+.contentAllPolity{
+    overflow-y:auto;
+}
+.containerAllPolity{
+    padding: 10px;
+    width: 90%;
+    height: 60vh;
+}
+.contentAllPolity h3{
+    font-size: 15px;
+}
+.titlePolity{
+font-weight: 800;
+font-size: 38px;
+color: #DA643A; 
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+width: 90%;
+}
+.containerPolity{
+    height: 80vh;
+}
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .titlePolity{
+        justify-content: center !important;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1700px) {
+    .titlePolity{
+        margin-top: 0;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1800px) {
+    .titlePolity h1{
+        font-size: 20px;
+        color: #DA643A;
+    }
+}

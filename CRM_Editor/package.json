@@ -1,0 +1,90 @@
+{
+  "name": "editorplus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@rsuite/icons": "^1.0.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.1",
+    "@testing-library/user-event": "^12.5.0",
+    "@uiball/loaders": "^1.2.6",
+    "aos": "^2.3.4",
+    "apexcharts": "^3.36.0",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.10.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.9.1",
+    "crypto-browserify": "^3.12.0",
+    "faker": "^5.5.3",
+    "firebase": "^9.8.3",
+    "fs": "^0.0.1-security",
+    "https-browserify": "^1.0.0",
+    "moment": "^2.29.4",
+    "net": "^1.0.2",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "react": "^17.0.2",
+    "react-addons-update": "^15.6.3",
+    "react-apexcharts": "^1.4.0",
+    "react-autosuggest": "^10.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-combo-date-picker": "^1.0.1",
+    "react-credit-cards-2": "^0.9.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.34.2",
+    "react-icons": "^4.4.0",
+    "react-materialize": "^3.10.0",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^8.0.2",
+    "react-responsive": "^9.0.0-beta.10",
+    "react-router-dom": "^6.3.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "5.0",
+    "react-select": "^5.4.0",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.5.0",
+    "react-toastify": "^9.0.5",
+    "react-ymd-date-select": "^0.1.0",
+    "recharts": "^2.1.15",
+    "redux-saga": "^1.1.3",
+    "rsuite": "^5.13.0",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.5.4",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "swiper": "^8.3.0",
+    "tls": "^0.0.1",
+    "url": "^0.11.0",
+    "web-vitals": "^2.1.4",
+    "webpack": "5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+.contenedor-vistas-explorar-superAdmin{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+}
+
+.select-explorar-vista-super-admin.css-b62m3t-container{
+    width: 357px;
+}
+
+.contenedor-buscador-explorar.vista-super-admin{
+align-items: center;
+width: 90%;
+}
+
+.cargando-imagen-video{
+    width: 20%;
+}
+.font-nombre-usuario-vedor-reproductor-super-admin{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0px 7px 7px rgb(0 0 0 / 25%);
+}
+
+.mis-videos-filtros-para-superAdmin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.contenedor-buscador-explorar-superAdmin{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 300px;
+    row-gap: 20px;
+}
+
+.contenedor-filtros-titulo-buscador{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+}
+
+.explorar-principal{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vidio-header-info{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    top: 0px;
+    /* left: 15px; */
+    padding: 10px 5px;
+    /* background: #0000006b; */
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    border-radius: 10px;
+}
+
+.calificacion-video-stars{
+    position: absolute;
+    top: 60%;
+    left: 20px;
+}
+.calificacion-video-stars-superadmin{
+    position: absolute;
+    top: -80%;
+    left: 20px;
+}
+
+.video-miniatura:hover .vidio-header-info,.video-miniatura:hover  .vista-admin-sin-hover-video{
+    opacity: 0;  
+}
+.mis-videos-filtros-SuperAdmin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* column-gap: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box-buscador-usuarios .rs-pagination{
+    display: flex !important;
+}
+.mis-videos-filtros-admin .rs-pagination{
+    display: flex;
+}

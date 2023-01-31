@@ -1,0 +1,9 @@
+# Read the documentation: https://github.com/1up-lab/OneupFlysystemBundle
+oneup_flysystem:
+    adapters:
+        acme.flysystem_adapter:
+            googlecloudstorage:
+                client: '1060127116113-9uvtb27vl57lf97eb00i260nlh1llq3l.apps.googleusercontent.com'
+                bucket: 'sistemas-delsud.appspot.com'
+                prefix: ''
+                
